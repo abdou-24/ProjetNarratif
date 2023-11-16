@@ -56,15 +56,20 @@ Kingsley: Hmm... Intriguant. Pour ma part, je ne pourrait point dire si nous som
 dans une autre dimension, mais ce que je sais, c'est que ma mémoire semble avoir garder quelques souvenir de ma vie.
 
 Kingsley: Puisque vous êtes la première personne que je croise, laisser moi vous raconter une histoire de là où je viens, mais tout d'abord, laisser moi vous posez une question...
+");
 
-Croyez-vous à l'effet papillon? 
+                    while (true)
+                    {
+                        Console.WriteLine(
+@"Croyez-vous à l'effet papillon? 
 Que l'impact d'un petit choix qu'on prend peut engendrer des effets incroyables sur le futur? 
 
 [oui]/[non]
 ");
 
 
- if ("oui" == Console.ReadLine())
+                        string choix = Console.ReadLine();
+ if ("oui" == choix)
 
  {
   Console.WriteLine("                                                 ");
@@ -75,11 +80,12 @@ Il semblerait que vous êtes une personne qui prend des décisions avec délicat
 Peut-être qu'il vous est déjà arrivé des situations de ce type dans votre vie antérieure...
 Mais enfin, voyons voir si vos choix concordent avec vos paroles..."
 );
+                            break;
  }
  
  else
 
-if ("non" == Console.ReadLine())
+if ("non" == choix)
 
 {
 Console.WriteLine("                                                 ");
@@ -89,7 +95,9 @@ Console.WriteLine(
  Votre vie a sûrement du être remplis de bonheur et de chance pour que vous refusiez d'y croire.
 Espérons que cette chance puisse vous continuez à vous suivre...
 ");
+                            break;
  }
+                    }
 
 
 
