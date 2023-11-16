@@ -36,9 +36,9 @@ Inconnu: Pardonnez mon enthousiasme, cela fait des lustres que j'habite ces tén
 Mon nom est Kingsley et vous êtes... ? 
 ");
 
-                    string name;
-                    Console.Write("Votre nom: ");
-                    name = Console.ReadLine();
+string name;
+Console.Write("Votre nom: ");
+name = Console.ReadLine();
 
                     
 Console.WriteLine($"Enchanté de faire votre connaissance {name} !");
@@ -55,9 +55,7 @@ La seule chose dont tu te rappelles est ton nom...
 Kingsley: Hmm... Intriguant. Pour ma part, je ne pourrait point dire si nous sommes mort ou bien piéger
 dans une autre dimension, mais ce que je sais, c'est que ma mémoire semble avoir garder quelques souvenir de ma vie.
 
-Kingsley: Puisque vous êtes la première personne que je croise, laisser moi vous raconter une histoire de là où je viens, 
-mais tout d'abord,laisser moi vous posez une question...
-
+Kingsley: Puisque vous êtes la première personne que je croise, laisser moi vous raconter une histoire de là où je viens, mais tout d'abord, laisser moi vous posez une question...
 
 Croyez-vous à l'effet papillon? 
 Que l'impact d'un petit choix qu'on prend peut engendrer des effets incroyables sur le futur? 
@@ -65,10 +63,33 @@ Que l'impact d'un petit choix qu'on prend peut engendrer des effets incroyables 
 [oui]/[non]
 ");
 
-Console.WriteLine("Votre choix: ");
 
+ if ("oui" == Console.ReadLine())
 
+ {
+  Console.WriteLine("                                                 ");
 
+ Console.WriteLine(
+@"Hmm... Intéressant...
+Il semblerait que vous êtes une personne qui prend des décisions avec délicatesse.
+Peut-être qu'il vous est déjà arrivé des situations de ce type dans votre vie antérieure...
+Mais enfin, voyons voir si vos choix concordent avec vos paroles..."
+);
+ }
+ 
+ else
+
+if ("non" == Console.ReadLine())
+
+{
+Console.WriteLine("                                                 ");
+
+Console.WriteLine(
+ @"Oh? Nous avons quelqu'un de brave de ce que je vois...
+ Votre vie a sûrement du être remplis de bonheur et de chance pour que vous refusiez d'y croire.
+Espérons que cette chance puisse vous continuez à vous suivre...
+");
+ }
 
 
 
