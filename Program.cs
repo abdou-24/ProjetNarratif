@@ -10,6 +10,7 @@ game.Add(new Gauche());
 game.Add(new Bedroom());
 game.Add(new Bathroom());
 game.Add(new AtticRoom());
+game.Add(new foretv2());
 
 
 while (!game.IsGameOver())

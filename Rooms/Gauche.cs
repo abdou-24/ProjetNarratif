@@ -23,31 +23,18 @@ il était tellement mince qu'on voyait la majorité des os et sa composition cor
 
 Quelle était cette créature? Qui a pu causer ce carnage?
 Tant de questions sans réponses...
+[retour]
 ";
 
         internal override void ReceiveChoice(string choice)
         {
             switch (choice)
             {
-                case "droite":
-                    Console.WriteLine("Après avoir rmarqué les traces de pas, tu te dis.");
+                case "retour":
+                    Console.WriteLine("N'ayant rien trouver de plus. Tu décides de retourner sur tes pas.");
                     Game.Transition<Droite>();
                     break;
-                case "porte":
-                    if (!AtticRoom.isKeyCollected)
-                    {
-                        Console.WriteLine("La porte est verrouillée.");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Tu ouvres la porte avec ta clé et tu sors de ta chambre.");
-                        //Game.Transition<LivingRoom>();
-                    }
-                    break;
-                case "gauche":
-                    Console.WriteLine("Tu montes dans le grenier.");
-                    Game.Transition<Gauche>();
-                    break;
+        
                 default:
                     Console.WriteLine("Commande invalide.");
                     break;
