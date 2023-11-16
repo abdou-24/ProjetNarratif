@@ -11,7 +11,7 @@ namespace ProjetNarratif.Rooms
         internal override string CreateDescription() =>
 
 @"Tu te réveilles dans une forêt enneigée au beau milieu de la nuit .
-Tu te demandes comment tu as pu t'endormir si soudainement sur le sol et pourquoi tu te retrouves seul.
+Tu te demandes comment tu as pu survivre à l'attaque de la créature.
 Trois chemin s'offrent à toi.
 
 Un vers la [droite] où des traces de pas ont été laissées
