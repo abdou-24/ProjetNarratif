@@ -2,9 +2,15 @@
 using ProjetNarratif.Rooms;
 
 var game = new Game();
+game.Add(new Narration());
+game.Add(new Introduction());
+game.Add(new Foret());
+game.Add(new Milieu());
+game.Add(new Gauche());
 game.Add(new Bedroom());
 game.Add(new Bathroom());
 game.Add(new AtticRoom());
+
 
 while (!game.IsGameOver())
 {
