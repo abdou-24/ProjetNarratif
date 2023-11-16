@@ -25,28 +25,19 @@ Un mirage? Une illusion? Sans réponse tu décides de t'approccher de la silouhe
             switch (choice)
             {
                 case "suite":
-                    Console.WriteLine("Inconnu: Hmm? Oh! De la compagnie! Il fut bien longtemps que j'en avais pas eu!");
-                    
-                    Console.WriteLine("                                                                                ");
-                    
-                    Console.WriteLine("* La personne que tu viens de rencontrer semble vraiment heureux de te voir." +
-                        "En la regardant tu remarques que celle-ci n'est autre qu'un humain, mais principalement un homme.");
-
-                    Console.WriteLine("                                                                                    ");
-                    
-                    Console.WriteLine("Inconnu: Pardonnez mon enthousiasme, " +
-                        "cela fait des lustres que " +
-                        " j'habite ces ténébres sans la moindre" +
-                        " forme de vie. Mon nom est Kingsley et vous êtes... ?");
-                   
-                    Console.WriteLine("                                                                                     ");
+                    Console.WriteLine(
+@"Inconnu: Hmm? Oh! De la compagnie! Il fut bien longtemps que j'en avais pas eu!
+* La personne que tu viens de rencontrer semble vraiment heureux de te voir.
+En la regardant tu remarques que celle-ci n'est autre qu'un humain, mais principalement un homme.
+Inconnu: Pardonnez mon enthousiasme, cela fait des lustres que j'habite ces ténébres sans la moindre
+forme de vie. Mon nom est Kingsley et vous êtes... ?
+");
                     
                     string name;
                     Console.Write("Votre nom: ");
                     name = Console.ReadLine();
 
-                    
-                    Console.WriteLine("Enchanté de faire votre connaissance " + name + " !");
+                    Console.WriteLine($"Enchanté de faire votre connaissance {name} !");
                     
                     Console.WriteLine("                                                                                       ");
                     
