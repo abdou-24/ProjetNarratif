@@ -32,7 +32,7 @@ namespace ProjetNarratif.Rooms
                     else
                     {
                         Console.WriteLine("Tu ouvres la porte avec ta clé et tu sors de ta chambre.");
-                        Game.Transition<LivingRoom>();
+                        //Game.Transition<LivingRoom>();
                     }
                     break;
                 case "gauche":

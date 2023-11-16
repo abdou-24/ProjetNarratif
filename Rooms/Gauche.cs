@@ -41,7 +41,7 @@ Tant de questions sans réponses...
                     else
                     {
                         Console.WriteLine("Tu ouvres la porte avec ta clé et tu sors de ta chambre.");
-                        Game.Transition<LivingRoom>();
+                        //Game.Transition<LivingRoom>();
                     }
                     break;
                 case "gauche":

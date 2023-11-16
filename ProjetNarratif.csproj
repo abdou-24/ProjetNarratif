@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="C:\Users\User\OneDrive\Profession et industrie\JeuxV2.cs" Link="JeuxV2.cs" />
-  </ItemGroup>
-
 </Project>

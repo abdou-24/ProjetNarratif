@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace ProjetNarratif.Rooms
 {
-    internal class Milieu : Room 
+    internal class Milieu : Room
     {
+        internal override string CreateDescription()
+        {
+            throw new NotImplementedException();
+        }
+
+        internal override void ReceiveChoice(string choice)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
