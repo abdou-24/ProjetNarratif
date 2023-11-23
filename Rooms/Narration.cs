@@ -78,9 +78,12 @@ Que l'impact d'un petit choix qu'on prend peut engendrer des effets incroyables 
 @"Hmm... Intéressant...
 Il semblerait que vous êtes une personne qui prend des décisions avec délicatesse.
 Peut-être qu'il vous est déjà arrivé des situations de ce type dans votre vie antérieure...
-Mais enfin, voyons voir si vos choix concordent avec vos paroles..."
+Mais enfin, voyons voir si vos choix concordent avec vos paroles...
+
+Sur ces dernières paroles, tu sens tes paupières devenir lourdes et la fatigue prendre le dessus.
+Ne pouvant plus résister tu t'endors immédiatement..."
 );
-                            break;
+ break;
  }
  
  else
@@ -93,11 +96,14 @@ Console.WriteLine("                                                 ");
 Console.WriteLine(
  @"Oh? Nous avons quelqu'un de brave de ce que je vois...
  Votre vie a sûrement du être remplis de bonheur et de chance pour que vous refusiez d'y croire.
-Espérons que cette chance puisse vous continuez à vous suivre...
-");
-                            break;
+Espérons que cette chance puisse continuer à vous suivre...
+
+Sur ces dernières paroles, tu sens tes paupières devenir lourdes et la fatigue prendre le dessus.
+Ne pouvant plus résister tu t'endors immédiatement...
+");Game.Transition<Introduction>();
+break;
  }
-                    }
+}
 
 
 
