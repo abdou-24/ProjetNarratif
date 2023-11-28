@@ -57,10 +57,9 @@ dans une autre dimension, mais ce que je sais, c'est que ma mémoire semble avoi
 
 Kingsley: Puisque vous êtes la première personne que je croise, laisser moi vous raconter une histoire de là où je viens, mais tout d'abord, laisser moi vous posez une question...
 ");
-
-                    while (true)
-                    {
-                        Console.WriteLine(
+ while (true)
+ {
+Console.WriteLine(
 @"Croyez-vous à l'effet papillon? 
 Que l'impact d'un petit choix qu'on prend peut engendrer des effets incroyables sur le futur? 
 
@@ -82,7 +81,7 @@ Mais enfin, voyons voir si vos choix concordent avec vos paroles...
 
 Sur ces dernières paroles, tu sens tes paupières devenir lourdes et la fatigue prendre le dessus.
 Ne pouvant plus résister tu t'endors immédiatement..."
-);
+); Game.Transition<Introduction>();
  break;
  }
  
@@ -105,13 +104,6 @@ break;
  }
 }
 
-
-
-
-                    
-
-              
-                    
 
                     break;
                     
