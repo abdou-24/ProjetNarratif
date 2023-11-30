@@ -27,7 +27,7 @@ Selon moi, la peur prendrait le dessus et je ne pourrait être capable d'aider q
 ,mais ce qui est sûr, je connais quelqu'un qui viendrait à mon secours.
 
 Votre choix: 
-[Lily]
+[lily]
 [groupe]
 [personne]
 ";  
@@ -38,7 +38,7 @@ Votre choix:
         {
             switch (choice)
             {
-case "Lily":
+case "lily":
 Console.WriteLine
  (@"Tu dis que dans cette situation, la seule personne qui compterait à tes yeux serait Lily et donc,
 elle serait la personne que tu sauverais et ce, même si tu mets ta vie en jeu.

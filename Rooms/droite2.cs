@@ -27,7 +27,7 @@ Il n'y a plus de raison à hésiter tu DOIS aller les sauver.
             switch (choice)
             {
                 case "suite":
-                    Game.Transition<droite2>();
+                    Game.Transition<Fin>();
                     break;
                 default:
                     Console.WriteLine("Commande invalide.");
