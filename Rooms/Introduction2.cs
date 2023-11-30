@@ -28,8 +28,8 @@ Selon moi, la peur prendrait le dessus et je ne pourrait être capable d'aider q
 
 Votre choix: 
 [Lily]
-[Groupe]
-[Personne]
+[groupe]
+[personne]
 ";  
         
 
@@ -50,7 +50,7 @@ Game.Transition<Introduction3>();
 
 
 
-case "Groupe":
+case "groupe":
 Console.WriteLine
 (@"Hésitant vraiment sur le choix, tu n'arrives pas à prendre une personne et oublier les autres
 Donc, tu dis à tout le monde que le choix serait beaucoup trop difficile à faire et
@@ -60,7 +60,7 @@ que tu essayerais de sauver tout le monde puisque de ton point vue, chaque perso
                     Game.Transition<Introduction3>();
                     break;
 
-case "Personne":
+case "personne":
 Console.WriteLine
 (@"*Effet Papillon
 

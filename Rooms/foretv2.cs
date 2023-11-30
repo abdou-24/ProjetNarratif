@@ -9,7 +9,7 @@ namespace ProjetNarratif.Rooms
     internal class foretv2 : Room
     {
         internal override string CreateDescription() =>
-@"Tu es revienu à l'endroit où il y a eu l'accident pour explorer les autres chemins 
+@"Tu es revenu à l'endroit où il y a eu l'accident pour explorer les autres chemins 
 Trois chemins s'offrent à toi
 
 Un vers la [droite] où des traces de pas ont été laissées

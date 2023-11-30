@@ -10,6 +10,7 @@ game.Add(new Introduction_Fin());
 game.Add(new Foret());
 game.Add(new foretv2());
 game.Add(new Milieu());
+game.Add(new Milieu2());
 game.Add(new Gauche());
 game.Add(new Bedroom());
 game.Add(new Bathroom());
