@@ -29,9 +29,9 @@ Ta copine, Lilly, quand à elle, te chuchote que tout cela est une mauvaise idé
                     Console.WriteLine
  (@"Effet Papillon
                         
-Tu dis à Lilly qu'elle s'inquiète beacoup trop et tu décides de passer pas une, mais plusieurs bouteilles à Maeva et William." +
-"Il n'a fallu que quelque minutes pour que Wiliam perd le contrôle et fasse un accident tuant tout le monde." +
- "Cette événement se répendit partout dans votre ville et dorénavant de nombreuses restrictions et règles ont instaurée pour la conduite au volant.");
+Tu dis à Lilly qu'elle s'inquiète beacoup trop et tu décides de passer pas une, mais plusieurs bouteilles à Maeva et William. 
+Il n'a fallu que quelque minutes pour que Wiliam perd le contrôle et fasse un accident tuant tout le monde.
+ Cette événement se répendit partout dans votre ville et dorénavant de nombreuses restrictions et règles ont instaurée pour la conduite au volant.");
                    
  Console.WriteLine("                                                                                         ");
                         

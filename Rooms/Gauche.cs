@@ -15,7 +15,7 @@ En t'approchant, tu remarques de plus près que ces animaux semblent avoir des b
 Aucune bête ne pourrait infliger ce type de blessure à des animaux comme le loup,l'ours,le coyote et pourtant,
 ceux-ci ne semblaient pas pouvoir se relever.
 
-Pourtant, une autre chose capta ton attention
+Pourtant, une autre chose capta ton attention.
 À travers le bain de sang, un autre coprs semblait se distinguer des autres.
 Du sang était recouvert sur de nombreux endroits de son corps et sa nuque semblait avoir été brisée.
 Il était très grand, avait des griffes et des dents pointus imbibées de sang. 
@@ -32,7 +32,7 @@ Tant de questions sans réponses...
             {
                 case "retour":
                     Console.WriteLine("N'ayant rien trouver de plus. Tu décides de retourner sur tes pas.");
-                    Game.Transition<Droite>();
+                    Game.Transition<foretv2>();
                     break;
         
                 default:

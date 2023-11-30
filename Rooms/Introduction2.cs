@@ -23,7 +23,8 @@ Josh: Honnêtement, plusieurs facteurs pourrait influencer mon choix,mais ce qui
 si la situation de vous sauver me mettrait en danger, je prendrais mes jambes à mon cou.
 
 Lily: Eh bien, on voit que tu possèdes une grande bravoure Josh. 
-Selon moi, j'essayerais d'aider tout le monde et non une seule personne.
+Selon moi, la peur prendrait le dessus et je ne pourrait être capable d'aider quelqu'un dans une telle situation
+,mais ce qui est sûr, je connais quelqu'un qui viendrait à mon secours.
 
 Votre choix: 
 [Lily]
@@ -37,13 +38,11 @@ Votre choix:
         {
             switch (choice)
             {
-                case "Lily":
-                    Console.WriteLine
- (@"Effet Papillon
-                        
-Tu dis que dans cette situation, la seule personne qui compterait à tes yeux seraient Lily et donc,
+case "Lily":
+Console.WriteLine
+ (@"Tu dis que dans cette situation, la seule personne qui compterait à tes yeux serait Lily et donc,
 elle serait la personne que tu sauverais et ce, même si tu mets ta vie en jeu.
-Celle-ci semble surprise mais, heureuse d'entendre cette réponse venant de votre part.
+Celle-ci semble heureuse d'entendre votre réponse et décide te donner un bisou en retour.
 
 *Lily se souviendra de vos paroles.");
 Game.Transition<Introduction3>();
@@ -51,14 +50,28 @@ Game.Transition<Introduction3>();
 
 
 
-                case "refuser":
-                    Console.WriteLine(@"Effet papillon
+case "Groupe":
+Console.WriteLine
+(@"Hésitant vraiment sur le choix, tu n'arrives pas à prendre une personne et oublier les autres
+Donc, tu dis à tout le monde que le choix serait beaucoup trop difficile à faire et
+que tu essayerais de sauver tout le monde puisque de ton point vue, chaque personne compte et ce peut importe les différences.
 
-D'un ton ferme, tu leurs rappelles que nous sommes toujours en déplacement 
-et qu'il ne faudrait pas aller vers les problèmes si on peut les éviter.
-Ils te regardent d'un air déçu et disent qu'ils pensaient que tu étais plus cool que ça
-Tu ignores le commentaire car, qui sait, un accident aurait pu se produire...  ");
-                    Game.Transition<Introduction2>();
+*Le groupe apprécie et se souviendra de ta réponse honnête.");
+                    Game.Transition<Introduction3>();
+                    break;
+
+case "Personne":
+Console.WriteLine
+(@"*Effet Papillon
+
+N'ayant pas de honte, tu mentionnes que sauver potentiellement une vie pour ,
+en contrepartie, peut-être, perdre la sienene serait une action stupide. Tu dis donc, que tu ne sauverais personne
+et que tu prioriserait ta survie avant celle des autres.
+
+Tout le groupe , à part Josh, semble abasourdis de ta réponse, mais ta copine, Lily, semble la plus contrariée
+et déçue de ta réponse
+");
+                    Game.Transition<Introduction3>();
                     break;
 
                 default:
