@@ -70,6 +70,8 @@ et que tu prioriserait ta survie avant celle des autres.
 
 Tout le groupe , à part Josh, semble abasourdis de ta réponse, mais ta copine, Lily, semble la plus contrariée
 et déçue de ta réponse
+
+*Lily se souviendra de votre réponse
 ");
                     Game.Transition<Introduction3>();
                     break;

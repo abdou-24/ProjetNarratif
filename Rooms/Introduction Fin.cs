@@ -12,7 +12,7 @@ namespace ProjetNarratif.Rooms
 @"En un instant la voiture fut portée et envoyée dans les airs.
 Elle entra en collision avec plusieurs arbres avant d'atterir.
 La douleur était incroyable et tu arrivais à peine bouger.
-Du sang commença à couler sur ton front et et des vertiges se firent ressentir.
+Du sang commença à couler sur ton front et des vertiges se firent ressentir.
 Tu essayes d'appeler à l'aide.
 Aucune réponse...
 [suite]"; 
