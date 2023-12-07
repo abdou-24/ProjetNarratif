@@ -3,6 +3,7 @@ using ProjetNarratif.Rooms;
 
 var game = new Game();
 game.Add(new Narration());
+game.Add(new devinette());
 game.Add(new Introduction());
 game.Add(new Introduction2());
 game.Add(new Introduction3());

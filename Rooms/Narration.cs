@@ -81,7 +81,7 @@ Mais enfin, voyons voir si vos choix concordent avec vos paroles...
 
 Sur ces dernières paroles, tu sens tes paupières devenir lourdes et la fatigue prendre le dessus.
 Ne pouvant plus résister tu t'endors immédiatement..."
-); Game.Transition<Introduction>();
+); Game.Transition<devinette>();
  break;
  }
  
@@ -99,7 +99,7 @@ Espérons que cette chance puisse continuer à vous suivre...
 
 Sur ces dernières paroles, tu sens tes paupières devenir lourdes et la fatigue prendre le dessus.
 Ne pouvant plus résister tu t'endors immédiatement...
-");Game.Transition<Introduction>();
+");Game.Transition<devinette>();
 break;
  }
 }
