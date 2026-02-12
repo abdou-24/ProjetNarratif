@@ -10,10 +10,10 @@ namespace ProjetNarratif.Rooms
     {
         internal override string CreateDescription() =>
 @"En un instant la voiture fut portée et envoyée dans les airs.
-Elle entra en collision avec plusieurs arbres avant d'atterir.
-La douleur était incroyable et tu arrivais à peine bouger.
+Elle entra en collision avec plusieurs arbres avant d'atterrir.
+La douleur était incroyable et tu arrivais à peine à bouger.
 Du sang commença à couler sur ton front et des vertiges se firent ressentir.
-Tu essayes d'appeler à l'aide.
+Tu essaies d'appeler à l'aide.
 Aucune réponse...
 [suite]"; 
      

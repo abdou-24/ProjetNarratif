@@ -16,7 +16,7 @@ Vous roulez en direction du chalet que vous posssédez pour profiter de vos vaca
 
 William, étant conducteur, te demande de lui [passer] une de ses bières préférées situées dans la boite à coté de toi.
 Maeva qui en est fan aussi en demande une aussi et Josh semble point intéressé à cette idée.
-Ta copine, Lilly, quand à elle, te chuchote que tout cela est une mauvaise idée et que tu devrais [refuser]
+Ta copine, Lilly, quand à elle, te chuchote que tout cela est une mauvaise idée et que tu devrais [refuser].
 
 
 ";
@@ -31,7 +31,7 @@ Ta copine, Lilly, quand à elle, te chuchote que tout cela est une mauvaise idé
                         
 Tu dis à Lilly qu'elle s'inquiète beacoup trop et tu décides de passer pas une, mais plusieurs bouteilles à Maeva et William. 
 Il n'a fallu que quelque minutes pour que Wiliam perd le contrôle et fasse un accident tuant tout le monde.
- Cette événement se répendit partout dans votre ville et dorénavant de nombreuses restrictions et règles ont instaurée pour la conduite au volant.");
+ Cette événement se répendit partout dans votre ville et dorénavant de nombreuses restrictions et règles ont été instaurées pour la conduite au volant.");
                    
  Console.WriteLine("                                                                                         ");
                         

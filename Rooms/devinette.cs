@@ -11,7 +11,7 @@ namespace ProjetNarratif.Rooms
     {
        
         internal override string CreateDescription() =>
-@"Tu es encore dans tes pensées et tu entends une autre vois 
+@"Tu es encore dans tes pensées et tu entends une autre voix. 
 ???: Une âme espérant retrouver son passé.. 
 Pour cela, vous devrez répondre à une énigme!
 [suite]
@@ -26,7 +26,7 @@ Pour cela, vous devrez répondre à une énigme!
                 case "suite":
                     {
                         Console.WriteLine(
-@"???: Je suis un endroit qui peut être monter ou descendu en été ou en hiver..
+@"???: Je suis un endroit qui peut être monté ou descendu en été ou en hiver..
 ");
 
 
@@ -34,19 +34,19 @@ Pour cela, vous devrez répondre à une énigme!
                         if ("montagne" == choix)
 
                         {
-                            Console.WriteLine(" Vous êtes dignes de passer!");
+                            Console.WriteLine(" Vous êtes digne de passer!");
 
                             Game.Transition<Introduction>();
                             break;
                         }
                         else
                             Console.WriteLine("Mauvaise Réponse!");
-                        Console.WriteLine("Deuxième indice, je peut être recouvert de neige tout comme de verdure");
+                        Console.WriteLine("Deuxième indice, je peux être recouvert de neige tout comme de verdure");
                         choix = Console.ReadLine();
                         if ("montagne" == choix)
 
                         {
-                            Console.WriteLine(" Vous êtes dignes de passer!");
+                            Console.WriteLine(" Vous êtes digne de passer!");
 
                             Game.Transition<Introduction>();
                             break;
@@ -54,12 +54,12 @@ Pour cela, vous devrez répondre à une énigme!
 
                         else
                             Console.WriteLine("Faux!");
-                        Console.WriteLine("Dernière chance, les athlètes pratiquant le ski et snowboards peuvent me descendre.");
+                        Console.WriteLine("Dernière chance, les athlètes pratiquant le ski et le snowboard peuvent me descendre.");
                         choix= Console.ReadLine();
                         if ("montagne" == choix)
 
                         {
-                            Console.WriteLine(" Vous êtes dignes de passer!");
+                            Console.WriteLine(" Vous êtes digne de passer!");
 
                             Game.Transition<Introduction>();
                             break;

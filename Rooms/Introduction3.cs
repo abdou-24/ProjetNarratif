@@ -11,12 +11,12 @@ namespace ProjetNarratif.Rooms
         internal override string CreateDescription() =>
 @"20h30
 Après de longues minutes de route, William mentionne que vous êtes bientôt arrivé à la destination.
-Maeva et Lily, heureuse, semble déjà prévoir les activités qu'elles vont faire quand à Josh,
-celui-ci semble fatigué et veut simplement dormir.
-Soudainement, une figure se voir au loin malgré les nombreux flocons.
+Maeva et Lily, heureuses, semblent déjà prévoir les activités qu'elles vont faire. 
+Quant à Josh, celui-ci semble fatigué et veut simplement dormir.
+Soudainement, une figure se vit au loin malgré les nombreux flocons.
 William arrêta la voiture et pourtant la mystérieuse figure semble se rapprocher.
-De plus en vite... Comme si quelqu'un courait... Mais, à une vitesse anormale...
-Stressant de la menace , William décide de faire marche arrière le plus vite qu'il peut,
+De plus en vite… Comme si quelqu'un courait… Mais, à une vitesse anormale...
+Stressant de la menace, William décide de faire marche arrière le plus vite qu'il peut,
 mais cela semblait trop tard.
 [suite]
 ";           
