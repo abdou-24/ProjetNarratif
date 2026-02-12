@@ -10,10 +10,10 @@ namespace ProjetNarratif.Rooms
     {
         internal override string CreateDescription() =>
 @"Voici la fin pour la première version de ce jeu.
-Il se peut que trouver des fautes de frappe, des bugs lors de votre test 
-donc, n'hésiter pas à les mentionner. De plus, si vous avez des idées qui pourrait améliorer mon jeu,
+Il se peut que vous trouviez des fautes de frappe, des bugs lors de votre test 
+donc, n'hésitez pas à les mentionner. De plus, si vous avez des idées qui pourraient améliorer mon jeu,
 il me fera plaisir de les entendre. Je continuerai à améliorer ce jeu pour obtenir la meilleure version
-et surtout concevoir les meilleurs fins (car oui il y aura plusieurs fins!) en réponse de vos actions.
+et surtout concevoir les meilleures fins (car oui il y aura plusieurs fins !) en réponse à vos actions.
 
 Merci beaucoup!
 
